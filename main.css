@@ -179,6 +179,54 @@ header.sticky{
 }
 
 .products{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+}
+
+.row{
+    position: relative;
+    transform: all .42s;
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.product-text h5{
+    position: absolute;
+    top: 1.3rem;
+    left: 1.3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: red;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-weight: 600;
+    color: red;
+}
+
+.heart-icon:hover{
+    color: green;
+}
+
+.ratings{
+    color: red;
+}
+
+.ratings:hover{
+    color: green;
 }
