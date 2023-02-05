@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+body,::after,::before{
+    font-size: 1.6rem;
+}
+
 html{
 
     font-size: 62.5%;
@@ -215,6 +219,7 @@ header.sticky{
 .heart-icon{
     position: absolute;
     right: 0;
+    font-size: 1.2rem;
     font-weight: 600;
     color: red;
 }
@@ -223,10 +228,124 @@ header.sticky{
     color: green;
 }
 
-.ratings{
+.ratings {
     color: red;
+    font-size: 1.2rem;
 }
 
 .ratings:hover{
     color: green;
 }
+
+.pricing h4{
+    color: #000;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.pricing p{
+    color: #151515;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+.client-reviews{
+    background-color: whitesmoke;
+}
+
+.reviews{
+    text-align: center;
+}
+
+.reviews h3{
+    color: #111;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.reviews img{
+    width: 10rem;
+    height: auto;
+    border-radius: 5rem;
+    margin: 1rem 0;
+}
+
+.reviews p{
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.reviews h2{
+    font-size: 2.2rem;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: .2rem;
+}
+
+.up-center-text{
+    text-align: center;
+    color: #111;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+
+.cart img{
+    width: 40rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(38rem, auto));
+    gap: 1rem;
+}
+
+.cart h5{
+    color: #636872;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: .9rem;
+}
+
+.cart h4{
+    text-transform: capitalize;
+    color: #111;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: .4rem;
+}
+
+.cart p{
+    margin-bottom: .9rem;
+    font-size: 1.5rem;
+    color: #707070;
+    line-height: 2.5rem;
+    max-width: 38rem;
+}
+
+.cart h6{
+    font-size: 1.3rem;
+    color: #151515;
+    font-weight: 500;
+}
+
+.cart img:hover{
+    transition: .42s ease;
+    transform: scale(1.1);
+}
+
+
+
