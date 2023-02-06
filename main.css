@@ -398,8 +398,39 @@ header.sticky{
 
 .end-text {
     text-align: center;
+    background-color: #edfff1;
+    padding: 2rem;
 }
 
 .end-text p{
     text-transform: capitalize;
+    color: #111;
 }
+
+        /* @media query */
+
+@media(max-width:89rem){
+    header{
+        padding: 2rem 3%;
+        transition: .4s;
+    }
+}
+
+@media(max-width:63rem){
+    .main-text h1{
+        font-size: 5rem;
+        transition: .4s;
+    }
+
+    .main-text p{
+        font-size: 1.8rem;
+        transition: .4s;
+    }
+
+    .main-btn{
+        padding: 1rem 2rem;
+        transition: .4s;
+    }
+}
+
+
