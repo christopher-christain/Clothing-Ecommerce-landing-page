@@ -433,4 +433,29 @@ header.sticky{
     }
 }
 
+@media(max-width:75rem){
+    .navmenu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 30rem;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12rem 3rem;
+        transition: all .42s;
+    }
+
+    .navmenu a{
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .navmenu.open{
+        right: 0;
+    }
+}
+
 
