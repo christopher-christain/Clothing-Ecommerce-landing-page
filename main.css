@@ -382,6 +382,16 @@ header.sticky{
 }
 
 .contact-info p:hover{
-    color: red;
-    
+    color: red;   
+}
+
+.social-links i{
+    color: #565656;
+    margin-right: 1rem;
+    font-size: 2rem;
+    transition: all .42s;
+}
+
+.social-links i:hover{
+    transform: scale(1.3);
 }
