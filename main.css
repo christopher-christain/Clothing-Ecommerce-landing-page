@@ -395,3 +395,11 @@ header.sticky{
 .social-links i:hover{
     transform: scale(1.3);
 }
+
+.end-text {
+    position: absolute;
+}
+
+.end-text p{
+    text-transform: capitalize;
+}
