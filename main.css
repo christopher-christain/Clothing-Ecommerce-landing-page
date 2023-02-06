@@ -347,5 +347,41 @@ header.sticky{
     transform: scale(1.1);
 }
 
+.contact{
+    background-color: whitesmoke;
+}
 
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
 
+.first-info img{
+    width: 14rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contact-info h4{
+    color: #212529;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.contact-info p{
+    text-transform: capitalize;
+    color: #565656;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.contact-info p:hover{
+    color: red;
+    
+}
