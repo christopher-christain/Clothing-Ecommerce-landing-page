@@ -397,7 +397,7 @@ header.sticky{
 }
 
 .end-text {
-    position: absolute;
+    text-align: center;
 }
 
 .end-text p{
